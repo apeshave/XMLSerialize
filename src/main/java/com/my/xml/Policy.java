@@ -71,9 +71,6 @@ class Policy {
 		this.permissions = permissions;
 	}
 
-
-
-
 	@Override
     public String toString() {
         return "Policy{" + "name=" + name + ", roles=" + roles + ", permissions=" + permissions + '}';

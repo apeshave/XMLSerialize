@@ -21,7 +21,6 @@ public class Userlist {
 	}
 
 	@ElementList(inline = true)
-    //@ElementList(entry = "user", type = Userlist.class)
     List<User> userlist = new ArrayList<User>();
 	
 

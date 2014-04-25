@@ -20,27 +20,14 @@ import org.simpleframework.xml.Root;
 @Element
 class User {
 	 @Element
-    //@Element(name = "username", type = String.class)
     public String username;
     
 	 @Element
-    //@Element(name = "deviceid", type = String.class)
     public String deviceid;
-    
-	 
-//	 @Element
-//	 public Roles roles = new Roles();
-//	 
-//	 @Element(name = "permissions")
-//	 public Permissions permissions;
-	 
-//	 @ElementList(entry = "role", type = Role.class)
-//	 
-	 //@ElementList(inline = true)
+
 	 @ElementList(entry = "role")
      List<String> roles = new ArrayList<String>();
-    
-	 //@ElementList(inline = true)
+
     @ElementList(entry = "permission")
     List<String> permissions = new ArrayList<String>();
 	 
@@ -66,22 +53,6 @@ class User {
         return "User{" + "username=" + username + ", deviceid=" + deviceid + ", roles=" + roles + ", permissions=" + permissions + '}';
     }
 
-//	public Roles getRoles() {
-//		return roles;
-//	}
-//
-//	public void setRoles(Roles roles) {
-//		this.roles = roles;
-//	}
-//
-//	public Permissions getPermissions() {
-//		return permissions;
-//	}
-//
-//	public void setPermissions(Permissions permissions) {
-//		this.permissions = permissions;
-//	}
-
 	public String getUsername() {
 		return username;
 	}
@@ -98,21 +69,6 @@ class User {
 		this.deviceid = deviceid;
 	}
 
-//	public Roles getRoles() {
-//		return roles;
-//	}
-//
-//	public void setRoles(Roles roles) {
-//		this.roles = roles;
-//	}
-//
-//	public Permissions getPermissions() {
-//		return permissions;
-//	}
-//
-//	public void setPermissions(Permissions permissions) {
-//		this.permissions = permissions;
-//	}
     
     
     
