@@ -1,0 +1,6 @@
+<permissions>
+	<permission>Create</permission>
+	<permission>Read</permission>
+	<permission>Update</permission>
+	<permission>Delete</permission>
+</permissions>

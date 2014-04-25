@@ -1,0 +1,5 @@
+<roles>
+	<role>Admin</role>
+	<role>Doctor</role>
+	<role>Nurse</role>
+</roles>

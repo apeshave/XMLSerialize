@@ -1,0 +1,15 @@
+<policies>
+	<policy>
+		<name>P1</name>
+		<roles>
+			<role>Admin</role>
+			<role>Doctor</role>
+		</roles>
+		<permissions>
+			<permission>Create</permission>
+			<permission>Read</permission>
+			<permission>Update</permission>
+			<permission>Delete</permission>
+		</permissions>
+	<policy>
+</policies>
